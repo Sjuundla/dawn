@@ -4,7 +4,7 @@ const $  = (e) => document.querySelector(e),
 function engines () {
   return {
     g: ['https://google.com/search?q=', 'Google'],
-    i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
+    i: ['http://images.google.com/images?um=1&hl=en&safe=active&nfpr=1&q=', 'Google Images'],
     d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
     y: ['https://youtube.com/results?search_query=', 'Youtube'],
     w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
