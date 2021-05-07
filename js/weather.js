@@ -1,6 +1,6 @@
 class Weather {
   constructor(location) {
-    this.location = location;
+    this.location = "Morisset, AU";
   }
 
   get getWeather() {
